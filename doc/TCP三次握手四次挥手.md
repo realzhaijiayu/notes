@@ -62,3 +62,7 @@ TCP 连接的**拆除需要发送四个包**，因此称为四次挥手，也叫
   - 客户端等待了某个固定时间（两个最大段生命周期）之后，没有收到服务器端的ACK，认为服务器端已经正常关闭连接，于是自己也关闭连接，进入`CLOSED`状态
 
 ![挥手](img/挥手.png)
+
+# 参考链接
+
+https://hit-alibaba.github.io/interview/basic/network/TCP.html
